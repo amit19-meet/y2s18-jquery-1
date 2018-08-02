@@ -10,3 +10,16 @@ function randomY() {
 /* END PROVIDED CODE */
 
 // Write your code below this line :)
+
+$("#moveButton").on("click", function () {
+	$("#message").css("left", randomX());
+});
+
+$("#moveButton").on("click", function () {
+	$("#message").css("top", randomY());
+});
+
+$("#moveButton").on("click", function () {
+	$(this).css("backgroundColor", "pink");
+});
+
